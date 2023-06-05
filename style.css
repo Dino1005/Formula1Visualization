@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #6c7474;
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Arial Black", sans-serif;
+  font-size: 44px;
+  color: #090909;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header img {
+  width: 8%;
+}
+
+.container {
+  display: flex;
+  background-color: red;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+
+#map {
+  position: relative;
+}
+
+#circuit-layout {
+  display: none;
+  position: absolute;
+  bottom: 40px;
+  left: 150px;
+  width: 600px;
+  height: 300px;
+}

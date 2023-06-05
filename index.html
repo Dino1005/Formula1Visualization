@@ -6,11 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formula 1 Races</title>
+  <link rel="stylesheet" href="style.css">
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
 </head>
 
 <body>
+  <header>
+    <img src="./images/logo.png" alt="">
+    <h1>Races Visualized</h1>
+  </header>
+  <div class="container">
+    <div class="map-container">
+      <svg id="map">
+      </svg>
+    </div>
+    <div class="stats-container">
+      <svg id="circuit-layout">
+      </svg>
+      <div class="stats">
 
+      </div>
+      <svg id="graph">
+      </svg>
+    </div>
+  </div>
 </body>
+<script src="./script.js"></script>
 
 </html>
