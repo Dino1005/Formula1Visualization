@@ -1,5 +1,5 @@
 const width = window.innerWidth
-const height = window.innerHeight - 100
+const height = window.innerHeight
 
 let zoomTransform = d3.zoomIdentity,
   coordinatesArray,
@@ -26,7 +26,7 @@ const svg = d3
   .select("#map")
   .attr("width", width)
   .attr("height", height)
-  .style("background", "#6c7474")
+  .style("background", "#fafae6")
 
 const zoomContainer = svg.append("g")
 
@@ -52,7 +52,7 @@ d3.json("world_map.json").then(function (world) {
     .join("path")
     .attr("class", "country")
     .attr("d", path)
-    .style("fill", "#090909")
+    .style("fill", "#950101")
 
   d3.json("circuits.json").then(function (circuits) {
     coordinatesArray = circuits.map((circuit) => [circuit.lng, circuit.lat])
@@ -84,6 +84,11 @@ d3.json("world_map.json").then(function (world) {
       .append("div")
       .attr("id", "tooltip")
       .style("display", "none")
+
+    svg
+      .transition()
+      .duration(300)
+      .call(zoom.transform, d3.zoomIdentity.scale(0.9))
   })
 })
 
@@ -95,7 +100,7 @@ function updateTooltip(event, d) {
     const circuit = circuits[index]
 
     if (circuit && circuit.location) {
-      tooltip.html(circuit.location + "<br>" + circuit.country)
+      tooltip.html(circuit.location + ", " + circuit.country)
       tooltip.transition().duration(200).style("display", "block")
       tooltip.style("left", x + 20 + "px").style("top", y + 20 + "px")
     } else {
@@ -148,7 +153,7 @@ function handleMarkerClick(event, d) {
     .duration(500)
     .call(zoom.transform, d3.zoomIdentity.scale(0.5))
 
-  if (zoomTransform.k >= 1) showStats(index)
+  if (zoomTransform.k >= 0.9) showStats(index)
 }
 
 function showStats(index) {
@@ -159,7 +164,7 @@ function showStats(index) {
 
     getSvg(circuit.circuitRef)
     circuitName.text(circuit.name)
-    circuitCountry.text(`Location: ${circuit.country}`)
+    circuitCountry.text(`Location: ${circuit.location}, ${circuit.country}`)
     circuitFirst.text(`First held: ${circuit.first}.`)
     circuitLength.text(`Circuit length: ${circuit.length}km`)
     circuitLaps.text(`Laps: ${circuit.laps}`)
@@ -174,11 +179,11 @@ function showStats(index) {
 svg.on("click", function () {
   const currentScale = zoomTransform.k
 
-  if (currentScale < 1) {
+  if (currentScale < 0.9) {
     svg
       .transition()
       .duration(500)
-      .call(zoom.transform, d3.zoomIdentity.scale(1))
+      .call(zoom.transform, d3.zoomIdentity.scale(0.9))
 
     d3.select(".circuit-container").style("display", "none")
   }
