@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 body {
@@ -8,19 +9,32 @@ body {
   overflow: hidden;
 }
 
+#tooltip {
+  position: absolute;
+  width: auto;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+
 header {
   text-align: center;
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 
 h1 {
-  font-family: "Arial Black", sans-serif;
   font-size: 44px;
   color: #090909;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-right: 200px;
 }
 
 header img {
@@ -44,11 +58,23 @@ header img {
   position: relative;
 }
 
-#circuit-layout {
+.circuit-container {
   display: none;
+  flex-direction: column;
   position: absolute;
-  bottom: 40px;
-  left: 150px;
-  width: 600px;
-  height: 300px;
+  bottom: 0px;
+  left: 100px;
+  float: left;
+  height: 40%;
+}
+
+.circuit-details {
+  display: flex;
+  height: 100%;
+}
+
+#name {
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 10px;
 }

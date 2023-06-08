@@ -1,20 +1,18 @@
 const width = window.innerWidth
 const height = window.innerHeight - 100
 
-let coordinatesArray
-let zoomTransform = d3.zoomIdentity
-let markers, isPressed
-const circuitSvg = d3.select("#circuit-layout")
+let zoomTransform = d3.zoomIdentity,
+  coordinatesArray,
+  markers,
+  tooltip
 
-var xhr = new XMLHttpRequest()
-xhr.open("GET", "./symbol.svg", true)
-xhr.onreadystatechange = function () {
-  if (xhr.readyState === 4 && xhr.status === 200) {
-    var data = xhr.responseText
-    svg.append("defs").append("symbol").attr("id", "markerSymbol").html(data)
-  }
-}
-xhr.send()
+const circuitName = d3.select("#name")
+const circuitCountry = d3.select("#country")
+const circuitFirst = d3.select("#first")
+const circuitLength = d3.select("#length")
+const circuitLaps = d3.select("#laps")
+
+const circuitSvg = d3.select("#circuit-layout")
 
 const projection = d3
   .geoMercator()
@@ -36,16 +34,19 @@ const zoom = d3.zoom().on("zoom", function (event) {
   zoomTransform = event.transform
   zoomContainer.attr("transform", zoomTransform)
   updateMarkerSize()
+  updateTooltip(event)
 })
 
 svg.call(zoom)
+
+getSvg("marker")
 
 d3.json("world_map.json").then(function (world) {
   const data = topojson.feature(world, world.objects.collection)
 
   projection.fitSize([width, height], data)
 
-  const countries = zoomContainer
+  zoomContainer
     .selectAll("path.country")
     .data(data.features)
     .join("path")
@@ -69,13 +70,61 @@ d3.json("world_map.json").then(function (world) {
       .on("click", function (event, d) {
         handleMarkerClick(event, d)
       })
+      .on("mouseover", function (event, d) {
+        updateTooltip(event, d)
+      })
+      .on("mouseout", function () {
+        tooltip.transition().duration(200).style("display", "none")
+      })
 
     updateMarkerSize()
+
+    tooltip = d3
+      .select("body")
+      .append("div")
+      .attr("id", "tooltip")
+      .style("display", "none")
   })
 })
 
+function updateTooltip(event, d) {
+  const index = coordinatesArray.findIndex((coord) => coord === d)
+
+  const [x, y] = [event.pageX, event.pageY]
+  d3.json("circuits.json").then(function (circuits) {
+    const circuit = circuits[index]
+
+    if (circuit && circuit.location) {
+      tooltip.html(circuit.location + "<br>" + circuit.country)
+      tooltip.transition().duration(200).style("display", "block")
+      tooltip.style("left", x + 20 + "px").style("top", y + 20 + "px")
+    } else {
+      tooltip.style("display", "none")
+    }
+  })
+}
+
+function getSvg(name) {
+  var request = new XMLHttpRequest()
+  if (name === "marker") request.open("GET", "./symbol.svg", true)
+  else request.open("GET", `./circuits/${name}.svg`, true)
+  request.onreadystatechange = function () {
+    if (request.readyState === 4 && request.status === 200) {
+      var data = request.responseText
+      if (name === "marker")
+        svg
+          .append("defs")
+          .append("symbol")
+          .attr("id", "markerSymbol")
+          .html(data)
+      else circuitSvg.html(data)
+    }
+  }
+  request.send()
+}
+
 function getSymbolSize() {
-  const scaleFactor = 0.02 / zoomTransform.k
+  const scaleFactor = 0.03 / zoomTransform.k
   return Math.max(scaleFactor, 0.01)
 }
 
@@ -91,28 +140,35 @@ function updateMarkerSize() {
 
 function handleMarkerClick(event, d) {
   const index = coordinatesArray.findIndex((coord) => coord === d)
-  console.log(index)
+
+  tooltip.style("display", "none")
 
   svg
     .transition()
     .duration(500)
     .call(zoom.transform, d3.zoomIdentity.scale(0.5))
 
+  if (zoomTransform.k >= 1) showStats(index)
+}
+
+function showStats(index) {
+  var circuit
+
   d3.json("circuits.json").then(function (circuits) {
-    const circuit = circuits[index]
+    circuit = circuits[index]
 
-    var xhr = new XMLHttpRequest()
-    xhr.open("GET", `./circuits/${circuit.circuitRef}.svg`, true)
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-        var data = xhr.responseText
-        circuitSvg.html(data)
-      }
-    }
-    xhr.send()
+    getSvg(circuit.circuitRef)
+    circuitName.text(circuit.name)
+    circuitCountry.text(`Location: ${circuit.country}`)
+    circuitFirst.text(`First held: ${circuit.first}.`)
+    circuitLength.text(`Circuit length: ${circuit.length}km`)
+    circuitLaps.text(`Laps: ${circuit.laps}`)
+
+    d3.select(".circuit-container")
+      .transition()
+      .delay(400)
+      .style("display", "flex")
   })
-
-  circuitSvg.transition().delay(400).style("display", "block")
 }
 
 svg.on("click", function () {
@@ -124,6 +180,6 @@ svg.on("click", function () {
       .duration(500)
       .call(zoom.transform, d3.zoomIdentity.scale(1))
 
-    d3.select("#circuit-layout").style("display", "none")
+    d3.select(".circuit-container").style("display", "none")
   }
 })

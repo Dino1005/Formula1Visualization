@@ -7,17 +7,23 @@
     "country": "Azerbaijan",
     "lat": 40,
     "lng": 49,
-    "url": "http://en.wikipedia.org/wiki/Baku_City_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Baku_City_Circuit",
+    "length": 6.003,
+    "first": 2017,
+    "laps": 51
   },
   {
     "circuitId": 1,
     "circuitRef": "albert_park",
-    "name": "Albert Park Grand Prix Circuit",
+    "name": "Albert Park",
     "location": "Melbourne",
     "country": "Australia",
     "lat": -37,
     "lng": 144,
-    "url": "https://en.wikipedia.org/wiki/Albert_Park_Circuit"
+    "url": "https://en.wikipedia.org/wiki/Albert_Park_Circuit",
+    "length": 5.303,
+    "first": 1953,
+    "laps": 58
   },
   {
     "circuitId": 2,
@@ -27,7 +33,10 @@
     "country": "Bahrain",
     "lat": 26,
     "lng": 50,
-    "url": "http://en.wikipedia.org/wiki/Bahrain_International_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Bahrain_International_Circuit",
+    "length": 5.412,
+    "first": 2004,
+    "laps": 57
   },
   {
     "circuitId": 3,
@@ -37,7 +46,10 @@
     "country": "Spain",
     "lat": 41,
     "lng": 2,
-    "url": "http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya"
+    "url": "http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya",
+    "length": 4.655,
+    "first": 1991,
+    "laps": 66
   },
   {
     "circuitId": 4,
@@ -47,7 +59,10 @@
     "country": "Monaco",
     "lat": 43,
     "lng": 7,
-    "url": "http://en.wikipedia.org/wiki/Circuit_de_Monaco"
+    "url": "http://en.wikipedia.org/wiki/Circuit_de_Monaco",
+    "length": 3.337,
+    "first": 1950,
+    "laps": 78
   },
   {
     "circuitId": 5,
@@ -57,7 +72,10 @@
     "country": "Canada",
     "lat": 45,
     "lng": -73,
-    "url": "http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve"
+    "url": "http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve",
+    "length": 4.361,
+    "first": 1978,
+    "laps": 70
   },
   {
     "circuitId": 6,
@@ -67,7 +85,10 @@
     "country": "UK",
     "lat": 52,
     "lng": -1,
-    "url": "http://en.wikipedia.org/wiki/Silverstone_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Silverstone_Circuit",
+    "length": 5.891,
+    "first": 1950,
+    "laps": 52
   },
   {
     "circuitId": 7,
@@ -77,7 +98,10 @@
     "country": "Hungary",
     "lat": 47,
     "lng": 19,
-    "url": "http://en.wikipedia.org/wiki/Hungaroring"
+    "url": "http://en.wikipedia.org/wiki/Hungaroring",
+    "length": 4.381,
+    "first": 1986,
+    "laps": 70
   },
   {
     "circuitId": 8,
@@ -87,7 +111,10 @@
     "country": "Belgium",
     "lat": 50,
     "lng": 5,
-    "url": "http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps"
+    "url": "http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+    "length": 7.004,
+    "first": 1950,
+    "laps": 44
   },
   {
     "circuitId": 9,
@@ -97,7 +124,10 @@
     "country": "Italy",
     "lat": 45,
     "lng": 9,
-    "url": "http://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza"
+    "url": "http://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza",
+    "length": 5.793,
+    "first": 1950,
+    "laps": 53
   },
   {
     "circuitId": 10,
@@ -107,7 +137,10 @@
     "country": "Singapore",
     "lat": 1,
     "lng": 103,
-    "url": "http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "length": 5.063,
+    "first": 2008,
+    "laps": 61
   },
   {
     "circuitId": 11,
@@ -117,7 +150,10 @@
     "country": "China",
     "lat": 31,
     "lng": 121,
-    "url": "http://en.wikipedia.org/wiki/Shanghai_International_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Shanghai_International_Circuit",
+    "length": 4.603,
+    "first": 2004,
+    "laps": 56
   },
   {
     "circuitId": 12,
@@ -127,7 +163,10 @@
     "country": "Brazil",
     "lat": -23,
     "lng": -46,
-    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace"
+    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
+    "length": 4.309,
+    "first": 1972,
+    "laps": 71
   },
   {
     "circuitId": 13,
@@ -137,7 +176,10 @@
     "country": "Japan",
     "lat": 34,
     "lng": 136,
-    "url": "http://en.wikipedia.org/wiki/Suzuka_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Suzuka_Circuit",
+    "length": 5.807,
+    "first": 1987,
+    "laps": 53
   },
   {
     "circuitId": 14,
@@ -147,7 +189,10 @@
     "country": "UAE",
     "lat": 24,
     "lng": 54,
-    "url": "http://en.wikipedia.org/wiki/Yas_Marina_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Yas_Marina_Circuit",
+    "length": 5.554,
+    "first": 2009,
+    "laps": 58
   },
   {
     "circuitId": 15,
@@ -157,7 +202,10 @@
     "country": "Mexico",
     "lat": 19,
     "lng": -99,
-    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez"
+    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez",
+    "length": 4.304,
+    "first": 1962,
+    "laps": 71
   },
   {
     "circuitId": 16,
@@ -167,7 +215,10 @@
     "country": "France",
     "lat": 43,
     "lng": 5,
-    "url": "http://en.wikipedia.org/wiki/Paul_Ricard_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Paul_Ricard_Circuit",
+    "length": 5.842,
+    "first": 1971,
+    "laps": 53
   },
   {
     "circuitId": 17,
@@ -177,7 +228,10 @@
     "country": "Netherlands",
     "lat": 52,
     "lng": 4,
-    "url": "http://en.wikipedia.org/wiki/Circuit_Zandvoort"
+    "url": "http://en.wikipedia.org/wiki/Circuit_Zandvoort",
+    "length": 4.259,
+    "first": 1950,
+    "laps": 72
   },
   {
     "circuitId": 18,
@@ -187,7 +241,10 @@
     "country": "USA",
     "lat": 30,
     "lng": -97,
-    "url": "http://en.wikipedia.org/wiki/Circuit_of_the_Americas"
+    "url": "http://en.wikipedia.org/wiki/Circuit_of_the_Americas",
+    "length": 3.792,
+    "first": 2012,
+    "laps": 56
   },
   {
     "circuitId": 19,
@@ -197,7 +254,10 @@
     "country": "Austria",
     "lat": 47,
     "lng": 14,
-    "url": "http://en.wikipedia.org/wiki/Red_Bull_Ring"
+    "url": "http://en.wikipedia.org/wiki/Red_Bull_Ring",
+    "length": 4.318,
+    "first": 1970,
+    "laps": 71
   },
   {
     "circuitId": 20,
@@ -207,6 +267,9 @@
     "country": "Russia",
     "lat": 43,
     "lng": 39,
-    "url": "http://en.wikipedia.org/wiki/Sochi_Autodrom"
+    "url": "http://en.wikipedia.org/wiki/Sochi_Autodrom",
+    "length": 5.848,
+    "first": 2014,
+    "laps": 53
   }
 ]
