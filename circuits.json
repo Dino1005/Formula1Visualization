@@ -10,7 +10,37 @@
     "url": "http://en.wikipedia.org/wiki/Baku_City_Circuit",
     "length": 6.003,
     "first": 2017,
-    "laps": 51
+    "laps": 51,
+    "stats": {
+      "year2018": {
+        "first": "hamilton",
+        "second": "raikkonen",
+        "third": "perez",
+        "fastest": "bottas",
+        "lap": "1:45.149"
+      },
+      "year2019": {
+        "first": "bottas",
+        "second": "hamilton",
+        "third": "vettel",
+        "fastest": "leclerc",
+        "lap": "1:43.009"
+      },
+      "year2021": {
+        "first": "perez",
+        "second": "vettel",
+        "third": "gasly",
+        "fastest": "verstappen",
+        "lap": "1:44.481"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "perez",
+        "third": "russell",
+        "fastest": "perez",
+        "lap": "1:46.046"
+      }
+    }
   },
   {
     "circuitId": 1,
@@ -23,7 +53,23 @@
     "url": "https://en.wikipedia.org/wiki/Albert_Park_Circuit",
     "length": 5.303,
     "first": 1953,
-    "laps": 58
+    "laps": 58,
+    "stats": {
+      "year2018": {
+        "first": "vettel",
+        "second": "hamilton",
+        "third": "raikkonen",
+        "fastest": "ricciardo",
+        "lap": "1:25.945"
+      },
+      "year2019": {
+        "first": "bottas",
+        "second": "hamilton",
+        "third": "verstappen",
+        "fastest": "bottas",
+        "lap": "1:25.580"
+      }
+    }
   },
   {
     "circuitId": 2,
@@ -36,7 +82,44 @@
     "url": "http://en.wikipedia.org/wiki/Bahrain_International_Circuit",
     "length": 5.412,
     "first": 2004,
-    "laps": 57
+    "laps": 57,
+    "stats": {
+      "year2018": {
+        "first": "vettel",
+        "second": "bottas",
+        "third": "hamilton",
+        "fastest": "bottas",
+        "lap": "1:33.740"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "bottas",
+        "third": "leclerc",
+        "fastest": "leclerc",
+        "lap": "1:33.411"
+      },
+      "year2020": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "albon",
+        "fastest": "verstappen",
+        "lap": "1:32.014"
+      },
+      "year2021": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "bottas",
+        "fastest": "bottas",
+        "lap": "1:32.090"
+      },
+      "year2022": {
+        "first": "leclerc",
+        "second": "sainz",
+        "third": "hamilton",
+        "fastest": "leclerc",
+        "lap": "1:30.558"
+      }
+    }
   },
   {
     "circuitId": 3,
@@ -49,7 +132,44 @@
     "url": "http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya",
     "length": 4.655,
     "first": 1991,
-    "laps": 66
+    "laps": 66,
+    "stats": {
+      "year2018": {
+        "first": "hamilton",
+        "second": "bottas",
+        "third": "verstappen",
+        "fastest": "ricciardo",
+        "lap": "1:18.441"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "bottas",
+        "third": "verstappen",
+        "fastest": "hamilton",
+        "lap": "1:18.492"
+      },
+      "year2020": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "bottas",
+        "fastest": "bottas",
+        "lap": "1:18.183"
+      },
+      "year2021": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "bottas",
+        "fastest": "verstappen",
+        "lap": "1:18.149"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "perez",
+        "third": "russell",
+        "fastest": "perez",
+        "lap": "1:24.108"
+      }
+    }
   },
   {
     "circuitId": 4,
@@ -62,7 +182,37 @@
     "url": "http://en.wikipedia.org/wiki/Circuit_de_Monaco",
     "length": 3.337,
     "first": 1950,
-    "laps": 78
+    "laps": 78,
+    "stats": {
+      "year2018": {
+        "first": "ricciardo",
+        "second": "vettel",
+        "third": "hamilton",
+        "fastest": "verstappen",
+        "lap": "1:14.260"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "vettel",
+        "third": "bottas",
+        "fastest": "gasly",
+        "lap": "1:14.279"
+      },
+      "year2021": {
+        "first": "verstappen",
+        "second": "sainz",
+        "third": "norris",
+        "fastest": "hamilton",
+        "lap": "1:12.909"
+      },
+      "year2022": {
+        "first": "perez",
+        "second": "sainz",
+        "third": "verstappen",
+        "fastest": "norris",
+        "lap": "1:14.693"
+      }
+    }
   },
   {
     "circuitId": 5,
@@ -75,7 +225,30 @@
     "url": "http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve",
     "length": 4.361,
     "first": 1978,
-    "laps": 70
+    "laps": 70,
+    "stats": {
+      "year2018": {
+        "first": "vettel",
+        "second": "bottas",
+        "third": "verstappen",
+        "fastest": "verstappen",
+        "lap": "1:13.864"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "vettel",
+        "third": "leclerc",
+        "fastest": "bottas",
+        "lap": "1:13.078"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "sainz",
+        "third": "hamilton",
+        "fastest": "sainz",
+        "lap": "1:15.749"
+      }
+    }
   },
   {
     "circuitId": 6,
@@ -88,7 +261,44 @@
     "url": "http://en.wikipedia.org/wiki/Silverstone_Circuit",
     "length": 5.891,
     "first": 1950,
-    "laps": 52
+    "laps": 52,
+    "stats": {
+      "year2018": {
+        "first": "vettel",
+        "second": "hamilton",
+        "third": "raikkonen",
+        "fastest": "vettel",
+        "lap": "1:30.696"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "bottas",
+        "third": "leclerc",
+        "fastest": "hamilton",
+        "lap": "1:27.369"
+      },
+      "year2020": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "leclerc",
+        "fastest": "verstappen",
+        "lap": "1:27.097"
+      },
+      "year2021": {
+        "first": "hamilton",
+        "second": "leclerc",
+        "third": "bottas",
+        "fastest": "perez",
+        "lap": "1:28.617"
+      },
+      "year2022": {
+        "first": "sainz",
+        "second": "perez",
+        "third": "hamilton",
+        "fastest": "hamilton",
+        "lap": "1:30.510"
+      }
+    }
   },
   {
     "circuitId": 7,
@@ -101,7 +311,44 @@
     "url": "http://en.wikipedia.org/wiki/Hungaroring",
     "length": 4.381,
     "first": 1986,
-    "laps": 70
+    "laps": 70,
+    "stats": {
+      "year2018": {
+        "first": "hamilton",
+        "second": "vettel",
+        "third": "raikkonen",
+        "fastest": "ricciardo",
+        "lap": "1:20.012"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "vettel",
+        "fastest": "verstappen",
+        "lap": "1:17.103"
+      },
+      "year2020": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "bottas",
+        "fastest": "hamilton",
+        "lap": "1:16.627"
+      },
+      "year2021": {
+        "first": "ocon",
+        "second": "hamilton",
+        "third": "sainz",
+        "fastest": "gasly",
+        "lap": "1:18.394"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "hamilton",
+        "third": "russell",
+        "fastest": "hamilton",
+        "lap": "1:21.386"
+      }
+    }
   },
   {
     "circuitId": 8,
@@ -114,7 +361,44 @@
     "url": "http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
     "length": 7.004,
     "first": 1950,
-    "laps": 44
+    "laps": 44,
+    "stats": {
+      "year2018": {
+        "first": "vettel",
+        "second": "hamilton",
+        "third": "verstappen",
+        "fastest": "bottas",
+        "lap": "1:46.286"
+      },
+      "year2019": {
+        "first": "leclerc",
+        "second": "hamilton",
+        "third": "bottas",
+        "fastest": "vettel",
+        "lap": "1:46.409"
+      },
+      "year2020": {
+        "first": "hamilton",
+        "second": "bottas",
+        "third": "verstappen",
+        "fastest": "ricciardo",
+        "lap": "1:47.483"
+      },
+      "year2021": {
+        "first": "verstappen",
+        "second": "russell",
+        "third": "hamilton",
+        "fastest": "None recognised",
+        "lap": ""
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "perez",
+        "third": "sainz",
+        "fastest": "verstappen",
+        "lap": "1:49.354"
+      }
+    }
   },
   {
     "circuitId": 9,
@@ -127,7 +411,44 @@
     "url": "http://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza",
     "length": 5.793,
     "first": 1950,
-    "laps": 53
+    "laps": 53,
+    "stats": {
+      "year2018": {
+        "first": "hamilton",
+        "second": "raikkonen",
+        "third": "bottas",
+        "fastest": "hamilton",
+        "lap": "1:22.497"
+      },
+      "year2019": {
+        "first": "leclerc",
+        "second": "bottas",
+        "third": "hamilton",
+        "fastest": "hamilton",
+        "lap": "1:21.779"
+      },
+      "year2020": {
+        "first": "gasly",
+        "second": "sainz",
+        "third": "stroll",
+        "fastest": "hamilton",
+        "lap": "1:22.746"
+      },
+      "year2021": {
+        "first": "ricciardo",
+        "second": "norris",
+        "third": "bottas",
+        "fastest": "ricciardo",
+        "lap": "1:24.812"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "leclerc",
+        "third": "russell",
+        "fastest": "perez",
+        "lap": "1:24.030"
+      }
+    }
   },
   {
     "circuitId": 10,
@@ -140,7 +461,37 @@
     "url": "http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
     "length": 5.063,
     "first": 2008,
-    "laps": 61
+    "laps": 61,
+    "stats": {
+      "year2018": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "vettel",
+        "fastest": "magnussen",
+        "lap": "1:41.905"
+      },
+      "year2019": {
+        "first": "vettel",
+        "second": "leclerc",
+        "third": "verstappen",
+        "fastest": "magnussen",
+        "lap": "1:42.301"
+      },
+      "year2020": {
+        "first": "perez",
+        "second": "leclerc",
+        "third": "sainz",
+        "fastest": "russell",
+        "lap": "1:46.458"
+      },
+      "year2022": {
+        "first": "perez",
+        "second": "leclerc",
+        "third": "sainz",
+        "fastest": "russell",
+        "lap": "1:46.458"
+      }
+    }
   },
   {
     "circuitId": 11,
@@ -153,7 +504,23 @@
     "url": "http://en.wikipedia.org/wiki/Shanghai_International_Circuit",
     "length": 4.603,
     "first": 2004,
-    "laps": 56
+    "laps": 56,
+    "stats": {
+      "year2018": {
+        "first": "ricciardo",
+        "second": "bottas",
+        "third": "raikkonen",
+        "fastest": "ricciardo",
+        "lap": "1:35.785"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "bottas",
+        "third": "vettel",
+        "fastest": "gasly",
+        "lap": "1:34.742"
+      }
+    }
   },
   {
     "circuitId": 12,
@@ -166,7 +533,37 @@
     "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
     "length": 4.309,
     "first": 1972,
-    "laps": 71
+    "laps": 71,
+    "stats": {
+      "year2018": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "raikkonen",
+        "fastest": "bottas",
+        "lap": "1:10.540"
+      },
+      "year2019": {
+        "first": "verstappen",
+        "second": "gasly",
+        "third": "sainz",
+        "fastest": "bottas",
+        "lap": "1:10.698"
+      },
+      "year2021": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "bottas",
+        "fastest": "perez",
+        "lap": "1:11.010"
+      },
+      "year2022": {
+        "first": "russell",
+        "second": "hamilton",
+        "third": "sainz",
+        "fastest": "russell",
+        "lap": "1:13.785"
+      }
+    }
   },
   {
     "circuitId": 13,
@@ -179,7 +576,30 @@
     "url": "http://en.wikipedia.org/wiki/Suzuka_Circuit",
     "length": 5.807,
     "first": 1987,
-    "laps": 53
+    "laps": 53,
+    "stats": {
+      "year2018": {
+        "first": "hamilton",
+        "second": "bottas",
+        "third": "verstappen",
+        "fastest": "vettel",
+        "lap": "1:32.318"
+      },
+      "year2019": {
+        "first": "bottas",
+        "second": "vettel",
+        "third": "hamilton",
+        "fastest": "hamilton",
+        "lap": "1:30.983"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "perez",
+        "third": "leclerc",
+        "fastest": "guanyu",
+        "lap": "1:44.411"
+      }
+    }
   },
   {
     "circuitId": 14,
@@ -192,7 +612,44 @@
     "url": "http://en.wikipedia.org/wiki/Yas_Marina_Circuit",
     "length": 5.554,
     "first": 2009,
-    "laps": 58
+    "laps": 58,
+    "stats": {
+      "year2018": {
+        "first": "hamilton",
+        "second": "vettel",
+        "third": "verstappen",
+        "fastest": "vettel",
+        "lap": "1:40.867"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "leclerc",
+        "fastest": "hamilton",
+        "lap": "1:39.283"
+      },
+      "year2020": {
+        "first": "verstappen",
+        "second": "bottas",
+        "third": "hamilton",
+        "fastest": "ricciardo",
+        "lap": "1:40.926"
+      },
+      "year2021": {
+        "first": "verstappen",
+        "second": "hamilton",
+        "third": "sainz",
+        "fastest": "verstappen",
+        "lap": "1:26.103"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "leclerc",
+        "third": "perez",
+        "fastest": "norris",
+        "lap": "1:28.391"
+      }
+    }
   },
   {
     "circuitId": 15,
@@ -205,7 +662,37 @@
     "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez",
     "length": 4.304,
     "first": 1962,
-    "laps": 71
+    "laps": 71,
+    "stats": {
+      "year2018": {
+        "first": "verstappen",
+        "second": "vettel",
+        "third": "raikkonen",
+        "fastest": "bottas",
+        "lap": "1:18.741"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "vettel",
+        "third": "bottas",
+        "fastest": "leclerc",
+        "lap": "1:19.232"
+      },
+      "year2021": {
+        "first": "verstappen",
+        "second": "hamilton",
+        "third": "perez",
+        "fastest": "bottas",
+        "lap": "1:17.774"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "hamilton",
+        "third": "perez",
+        "fastest": "russell",
+        "lap": "1:20.153"
+      }
+    }
   },
   {
     "circuitId": 16,
@@ -218,7 +705,37 @@
     "url": "http://en.wikipedia.org/wiki/Paul_Ricard_Circuit",
     "length": 5.842,
     "first": 1971,
-    "laps": 53
+    "laps": 53,
+    "stats": {
+      "year2018": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "raikkonen",
+        "fastest": "bottas",
+        "lap": "1:34.225"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "bottas",
+        "third": "leclerc",
+        "fastest": "vettel",
+        "lap": "1:32.740"
+      },
+      "year2021": {
+        "first": "verstappen",
+        "second": "hamilton",
+        "third": "perez",
+        "fastest": "verstappen",
+        "lap": "1:36.404"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "hamilton",
+        "third": "russell",
+        "fastest": "sainz",
+        "lap": "1:35.781"
+      }
+    }
   },
   {
     "circuitId": 17,
@@ -231,7 +748,23 @@
     "url": "http://en.wikipedia.org/wiki/Circuit_Zandvoort",
     "length": 4.259,
     "first": 1950,
-    "laps": 72
+    "laps": 72,
+    "stats": {
+      "year2021": {
+        "first": "verstappen",
+        "second": "hamilton",
+        "third": "bottas",
+        "fastest": "hamilton",
+        "lap": "1:11.097"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "russell",
+        "third": "leclerc",
+        "fastest": "verstappen",
+        "lap": "1:13.652"
+      }
+    }
   },
   {
     "circuitId": 18,
@@ -244,7 +777,37 @@
     "url": "http://en.wikipedia.org/wiki/Circuit_of_the_Americas",
     "length": 3.792,
     "first": 2012,
-    "laps": 56
+    "laps": 56,
+    "stats": {
+      "year2018": {
+        "first": "raikkonen",
+        "second": "verstappen",
+        "third": "hamilton",
+        "fastest": "hamilton",
+        "lap": "1:37.392"
+      },
+      "year2019": {
+        "first": "bottas",
+        "second": "hamilton",
+        "third": "verstappen",
+        "fastest": "leclerc",
+        "lap": "1:36.169"
+      },
+      "year2021": {
+        "first": "verstappen",
+        "second": "hamilton",
+        "third": "perez",
+        "fastest": "hamilton",
+        "lap": "1:38.485"
+      },
+      "year2022": {
+        "first": "verstappen",
+        "second": "hamilton",
+        "third": "leclerc",
+        "fastest": "russell",
+        "lap": "1:38.788"
+      }
+    }
   },
   {
     "circuitId": 19,
@@ -257,7 +820,44 @@
     "url": "http://en.wikipedia.org/wiki/Red_Bull_Ring",
     "length": 4.318,
     "first": 1970,
-    "laps": 71
+    "laps": 71,
+    "stats": {
+      "year2018": {
+        "first": "verstappen",
+        "second": "raikkonen",
+        "third": "vettel",
+        "fastest": "raikkonen",
+        "lap": "1:06.957"
+      },
+      "year2019": {
+        "first": "verstappen",
+        "second": "leclerc",
+        "third": "bottas",
+        "fastest": "verstappen",
+        "lap": "1:07.475"
+      },
+      "year2020": {
+        "first": "bottas",
+        "second": "leclerc",
+        "third": "norris",
+        "fastest": "norris",
+        "lap": "1:07.475"
+      },
+      "year2021": {
+        "first": "verstappen",
+        "second": "bottas",
+        "third": "norris",
+        "fastest": "verstappen",
+        "lap": "1:06.200"
+      },
+      "year2022": {
+        "first": "leclerc",
+        "second": "verstappen",
+        "third": "hamilton",
+        "fastest": "verstappen",
+        "lap": "1:07.275"
+      }
+    }
   },
   {
     "circuitId": 20,
@@ -270,6 +870,36 @@
     "url": "http://en.wikipedia.org/wiki/Sochi_Autodrom",
     "length": 5.848,
     "first": 2014,
-    "laps": 53
+    "laps": 53,
+    "stats": {
+      "year2018": {
+        "first": "hamilton",
+        "second": "bottas",
+        "third": "vettel",
+        "fastest": "bottas",
+        "lap": "1:35.861"
+      },
+      "year2019": {
+        "first": "hamilton",
+        "second": "bottas",
+        "third": "leclerc",
+        "fastest": "hamilton",
+        "lap": "1:35.761"
+      },
+      "year2020": {
+        "first": "bottas",
+        "second": "verstappen",
+        "third": "hamilton",
+        "fastest": "bottas",
+        "lap": "1:37.030"
+      },
+      "year2021": {
+        "first": "hamilton",
+        "second": "verstappen",
+        "third": "sainz",
+        "fastest": "norris",
+        "lap": "1:37.423"
+      }
+    }
   }
 ]

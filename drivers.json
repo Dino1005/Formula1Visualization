@@ -1,0 +1,104 @@
+[
+  {
+    "driverRef": "bottas",
+    "driverName": "Valtteri Bottas",
+    "driverNumber": "77",
+    "driverCountry": "Finland"
+  },
+  {
+    "driverRef": "hamilton",
+    "driverName": "Lewis Hamilton",
+    "driverNumber": "44",
+    "driverCountry": "United Kingdom"
+  },
+  {
+    "driverRef": "perez",
+    "driverName": "Sergio Perez",
+    "driverNumber": "11",
+    "driverCountry": "Mexico"
+  },
+  {
+    "driverRef": "verstappen",
+    "driverName": "Max Verstappen",
+    "driverNumber": "33",
+    "driverCountry": "Netherlands"
+  },
+  {
+    "driverRef": "norris",
+    "driverName": "Lando Norris",
+    "driverNumber": "4",
+    "driverCountry": "United Kingdom"
+  },
+  {
+    "driverRef": "ricciardo",
+    "driverName": "Daniel Ricciardo",
+    "driverNumber": "3",
+    "driverCountry": "Australia"
+  },
+  {
+    "driverRef": "vettel",
+    "driverName": "Sebastian Vettel",
+    "driverNumber": "5",
+    "driverCountry": "Germany"
+  },
+  {
+    "driverRef": "raikkonen",
+    "driverName": "Kimi Raikkonen",
+    "driverNumber": "7",
+    "driverCountry": "Finland"
+  },
+  {
+    "driverRef": "gasly",
+    "driverName": "Pierre Gasly",
+    "driverNumber": "10",
+    "driverCountry": "France"
+  },
+  {
+    "driverRef": "ocon",
+    "driverName": "Esteban Ocon",
+    "driverNumber": "31",
+    "driverCountry": "France"
+  },
+  {
+    "driverRef": "guanyu",
+    "driverName": "Guanyu Zhou",
+    "driverNumber": "47",
+    "driverCountry": "China"
+  },
+  {
+    "driverRef": "leclerc",
+    "driverName": "Charles Leclerc",
+    "driverNumber": "16",
+    "driverCountry": "Monaco"
+  },
+  {
+    "driverRef": "russell",
+    "driverName": "George Russel",
+    "driverNumber": "63",
+    "driverCountry": "United Kingdom"
+  },
+  {
+    "driverRef": "sainz",
+    "driverName": "Carlos Sainz",
+    "driverNumber": "55",
+    "driverCountry": "Spain"
+  },
+  {
+    "driverRef": "magnussen",
+    "driverName": "Kevin Magnussen",
+    "driverNumber": "20",
+    "driverCountry": "Denmark"
+  },
+  {
+    "driverRef": "stroll",
+    "driverName": "Lance Stroll",
+    "driverNumber": "18",
+    "driverCountry": "Canada"
+  },
+  {
+    "driverRef": "albon",
+    "driverName": "Alexander Albon",
+    "driverNumber": "23",
+    "driverCountry": "Thailand"
+  }
+]

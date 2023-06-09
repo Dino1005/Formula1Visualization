@@ -42,10 +42,8 @@ header img {
   width: 100px;
 }
 
-h1 {
+header h1 {
   font-size: 44px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  font-style: italic;
   text-transform: uppercase;
   color: #3d0000;
 }
@@ -75,7 +73,7 @@ h3 {
   flex-direction: column;
   position: absolute;
   bottom: 20px;
-  left: 120px;
+  left: 150px;
   float: left;
   height: 40%;
 }
@@ -105,4 +103,106 @@ h3 {
 
 .sectors {
   margin-top: 60px;
+}
+
+.graph-container {
+  position: absolute;
+  float: right;
+  display: none;
+  flex-direction: column;
+  z-index: 1;
+  left: 850px;
+  top: 80px;
+  width: 600px;
+  height: 450px;
+}
+
+.podium-container {
+  display: flex;
+  width: 100%;
+}
+
+.podium-container h1 {
+  font-size: 44px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fbbf24;
+}
+
+.podium-container img {
+  width: 150px;
+  height: 150px;
+  padding: 20px 20px 0 20px;
+}
+
+.fastest-lap {
+  padding-top: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.fastest-lap h2 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #3d0000;
+}
+
+#second-title {
+  padding-top: 60px;
+  color: #c0c0c0;
+}
+#third-title {
+  padding-top: 100px;
+  color: #cd7f32;
+}
+
+.podium-place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.podium-place h3 {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #3d0000;
+  text-align: center;
+  width: 50%;
+}
+
+.selection-container {
+  display: none;
+  position: absolute;
+  bottom: 80px;
+  right: 280px;
+}
+
+.selection-container label {
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #3d0000;
+  text-align: center;
+  padding: 5px;
+}
+
+.selection-container select {
+  background-color: #950101;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+}
+
+.selection-container select option {
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
 }

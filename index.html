@@ -33,7 +33,7 @@
           <div class="circuit-stats">
             <h3 id="country">
             </h3>
-            <h3 id="first">
+            <h3 id="firstHeld">
             </h3>
             <h3 id="length">
             </h3>
@@ -51,14 +51,36 @@
       </div>
 
       <div class="graph-container">
-        <div class="graph-stats">
+        <div class="podium-container">
+          <div class="podium-place">
+            <h1 id="second-title">2nd</h1>
+            <img id="second" src="" alt="">
+            <h3 id="secondName"></h3>
+          </div>
+          <div class="podium-place">
+            <h1>1st</h1>
+            <img id="first" src="" alt="">
+            <h3 id="firstName"></h3>
+          </div>
+          <div class="podium-place">
+            <h1 id="third-title">3rd</h1>
+            <img id="third" src="" alt="">
+            <h3 id="thirdName"></h3>
+          </div>
+        </div>
+        <div class="fastest-lap">
+          <h3>Fastest lap:</h3>
+          <h2 id="flap"></h2>
         </div>
         <svg id="graph">
         </svg>
       </div>
 
       <div class="selection-container">
+        <label for="year">Select a race year:</label>
         <div class="selection">
+          <select name="year" id="year">
+          </select>
         </div>
       </div>
     </div>

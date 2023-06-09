@@ -4,15 +4,25 @@ const height = window.innerHeight
 let zoomTransform = d3.zoomIdentity,
   coordinatesArray,
   markers,
-  tooltip
+  tooltip,
+  selectedCircuit
+
+const circuitSvg = d3.select("#circuit-layout")
+const graphSvg = d3.select("#graph")
 
 const circuitName = d3.select("#name")
 const circuitCountry = d3.select("#country")
-const circuitFirst = d3.select("#first")
+const circuitFirst = d3.select("#firstHeld")
 const circuitLength = d3.select("#length")
 const circuitLaps = d3.select("#laps")
-
-const circuitSvg = d3.select("#circuit-layout")
+const firstPlace = d3.select("#first")
+const secondPlace = d3.select("#second")
+const thirdPlace = d3.select("#third")
+const firstName = d3.select("#firstName")
+const secondName = d3.select("#secondName")
+const thirdName = d3.select("#thirdName")
+const yearSelect = document.querySelector("#year")
+const fastestLap = d3.select("#flap")
 
 const projection = d3
   .geoMercator()
@@ -22,13 +32,13 @@ const projection = d3
 
 const path = d3.geoPath(projection)
 
-const svg = d3
+const map = d3
   .select("#map")
   .attr("width", width)
   .attr("height", height)
   .style("background", "#fafae6")
 
-const zoomContainer = svg.append("g")
+const zoomContainer = map.append("g")
 
 const zoom = d3.zoom().on("zoom", function (event) {
   zoomTransform = event.transform
@@ -37,7 +47,7 @@ const zoom = d3.zoom().on("zoom", function (event) {
   updateTooltip(event)
 })
 
-svg.call(zoom)
+map.call(zoom)
 
 getSvg("marker")
 
@@ -85,7 +95,7 @@ d3.json("world_map.json").then(function (world) {
       .attr("id", "tooltip")
       .style("display", "none")
 
-    svg
+    map
       .transition()
       .duration(300)
       .call(zoom.transform, d3.zoomIdentity.scale(0.9))
@@ -117,7 +127,7 @@ function getSvg(name) {
     if (request.readyState === 4 && request.status === 200) {
       var data = request.responseText
       if (name === "marker")
-        svg
+        map
           .append("defs")
           .append("symbol")
           .attr("id", "markerSymbol")
@@ -148,7 +158,7 @@ function handleMarkerClick(event, d) {
 
   tooltip.style("display", "none")
 
-  svg
+  map
     .transition()
     .duration(500)
     .call(zoom.transform, d3.zoomIdentity.scale(0.5))
@@ -157,34 +167,128 @@ function handleMarkerClick(event, d) {
 }
 
 function showStats(index) {
-  var circuit
-
   d3.json("circuits.json").then(function (circuits) {
-    circuit = circuits[index]
+    selectedCircuit = circuits[index]
 
-    getSvg(circuit.circuitRef)
-    circuitName.text(circuit.name)
-    circuitCountry.text(`Location: ${circuit.location}, ${circuit.country}`)
-    circuitFirst.text(`First held: ${circuit.first}.`)
-    circuitLength.text(`Circuit length: ${circuit.length}km`)
-    circuitLaps.text(`Laps: ${circuit.laps}`)
+    updateSelectionYears()
+
+    getSvg(selectedCircuit.circuitRef)
+    circuitName.text(selectedCircuit.name)
+    circuitCountry.text(
+      `Location: ${selectedCircuit.location}, ${selectedCircuit.country}`
+    )
+    circuitFirst.text(`First held: ${selectedCircuit.first}.`)
+    circuitLength.text(`Circuit length: ${selectedCircuit.length} km`)
+    circuitLaps.text(`Laps: ${selectedCircuit.laps}`)
 
     d3.select(".circuit-container")
+      .transition()
+      .delay(400)
+      .style("display", "flex")
+
+    const selectedYear = yearSelect.value
+    const race = selectedCircuit.stats[`year${selectedYear}`]
+
+    firstPlace.attr("src", function (d) {
+      return "./images/" + race.first + ".png"
+    })
+    secondPlace.attr("src", function (d) {
+      return "./images/" + race.second + ".png"
+    })
+    thirdPlace.attr("src", function (d) {
+      return "./images/" + race.third + ".png"
+    })
+
+    d3.json("drivers.json").then(function (drivers) {
+      firstName.text(
+        drivers.find((driver) => driver.driverRef === race.first).driverName
+      )
+      secondName.text(
+        drivers.find((driver) => driver.driverRef === race.second).driverName
+      )
+      thirdName.text(
+        drivers.find((driver) => driver.driverRef === race.third).driverName
+      )
+      fastestLap.text(
+        drivers.find((driver) => driver.driverRef === race.fastest).driverName +
+          ", " +
+          race.lap +
+          "s"
+      )
+    })
+
+    d3.select(".graph-container")
+      .transition()
+      .delay(400)
+      .style("display", "flex")
+
+    d3.select(".selection-container")
       .transition()
       .delay(400)
       .style("display", "flex")
   })
 }
 
-svg.on("click", function () {
+function updateSelectionYears() {
+  const years = Object.keys(selectedCircuit.stats)
+  console.log(years)
+  yearSelect.innerHTML = ""
+  years.forEach((year) => {
+    const option = document.createElement("option")
+    option.value = year.substring(4)
+    option.innerHTML = year.substring(4)
+    yearSelect.appendChild(option)
+  })
+}
+
+map.on("click", function () {
   const currentScale = zoomTransform.k
 
   if (currentScale < 0.9) {
-    svg
+    map
       .transition()
       .duration(500)
       .call(zoom.transform, d3.zoomIdentity.scale(0.9))
 
     d3.select(".circuit-container").style("display", "none")
+    d3.select(".graph-container").style("display", "none")
+    d3.select(".selection-container").style("display", "none")
   }
 })
+
+yearSelect.addEventListener("change", function () {
+  updateStats()
+})
+
+function updateStats() {
+  const selectedYear = yearSelect.value
+  const race = selectedCircuit.stats[`year${selectedYear}`]
+
+  firstPlace.attr("src", function (d) {
+    return "./images/" + race.first + ".png"
+  })
+  secondPlace.attr("src", function (d) {
+    return "./images/" + race.second + ".png"
+  })
+  thirdPlace.attr("src", function (d) {
+    return "./images/" + race.third + ".png"
+  })
+
+  d3.json("drivers.json").then(function (drivers) {
+    firstName.text(
+      drivers.find((driver) => driver.driverRef === race.first).driverName
+    )
+    secondName.text(
+      drivers.find((driver) => driver.driverRef === race.second).driverName
+    )
+    thirdName.text(
+      drivers.find((driver) => driver.driverRef === race.third).driverName
+    )
+    fastestLap.text(
+      drivers.find((driver) => driver.driverRef === race.fastest).driverName +
+        ", " +
+        race.lap +
+        "s"
+    )
+  })
+}
