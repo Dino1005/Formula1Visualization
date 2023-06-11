@@ -1,104 +1,70 @@
 [
   {
     "driverRef": "bottas",
-    "driverName": "Valtteri Bottas",
-    "driverNumber": "77",
-    "driverCountry": "Finland"
+    "driverName": "Valtteri Bottas"
   },
   {
     "driverRef": "hamilton",
-    "driverName": "Lewis Hamilton",
-    "driverNumber": "44",
-    "driverCountry": "United Kingdom"
+    "driverName": "Lewis Hamilton"
   },
   {
     "driverRef": "perez",
-    "driverName": "Sergio Perez",
-    "driverNumber": "11",
-    "driverCountry": "Mexico"
+    "driverName": "Sergio Perez"
   },
   {
     "driverRef": "verstappen",
-    "driverName": "Max Verstappen",
-    "driverNumber": "33",
-    "driverCountry": "Netherlands"
+    "driverName": "Max Verstappen"
   },
   {
     "driverRef": "norris",
-    "driverName": "Lando Norris",
-    "driverNumber": "4",
-    "driverCountry": "United Kingdom"
+    "driverName": "Lando Norris"
   },
   {
     "driverRef": "ricciardo",
-    "driverName": "Daniel Ricciardo",
-    "driverNumber": "3",
-    "driverCountry": "Australia"
+    "driverName": "Daniel Ricciardo"
   },
   {
     "driverRef": "vettel",
-    "driverName": "Sebastian Vettel",
-    "driverNumber": "5",
-    "driverCountry": "Germany"
+    "driverName": "Sebastian Vettel"
   },
   {
     "driverRef": "raikkonen",
-    "driverName": "Kimi Raikkonen",
-    "driverNumber": "7",
-    "driverCountry": "Finland"
+    "driverName": "Kimi Raikkonen"
   },
   {
     "driverRef": "gasly",
-    "driverName": "Pierre Gasly",
-    "driverNumber": "10",
-    "driverCountry": "France"
+    "driverName": "Pierre Gasly"
   },
   {
     "driverRef": "ocon",
-    "driverName": "Esteban Ocon",
-    "driverNumber": "31",
-    "driverCountry": "France"
+    "driverName": "Esteban Ocon"
   },
   {
     "driverRef": "guanyu",
-    "driverName": "Guanyu Zhou",
-    "driverNumber": "47",
-    "driverCountry": "China"
+    "driverName": "Guanyu Zhou"
   },
   {
     "driverRef": "leclerc",
-    "driverName": "Charles Leclerc",
-    "driverNumber": "16",
-    "driverCountry": "Monaco"
+    "driverName": "Charles Leclerc"
   },
   {
     "driverRef": "russell",
-    "driverName": "George Russel",
-    "driverNumber": "63",
-    "driverCountry": "United Kingdom"
+    "driverName": "George Russel"
   },
   {
     "driverRef": "sainz",
-    "driverName": "Carlos Sainz",
-    "driverNumber": "55",
-    "driverCountry": "Spain"
+    "driverName": "Carlos Sainz"
   },
   {
     "driverRef": "magnussen",
-    "driverName": "Kevin Magnussen",
-    "driverNumber": "20",
-    "driverCountry": "Denmark"
+    "driverName": "Kevin Magnussen"
   },
   {
     "driverRef": "stroll",
-    "driverName": "Lance Stroll",
-    "driverNumber": "18",
-    "driverCountry": "Canada"
+    "driverName": "Lance Stroll"
   },
   {
     "driverRef": "albon",
-    "driverName": "Alexander Albon",
-    "driverNumber": "23",
-    "driverCountry": "Thailand"
+    "driverName": "Alexander Albon"
   }
 ]

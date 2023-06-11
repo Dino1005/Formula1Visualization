@@ -11,7 +11,7 @@
     "length": 6.003,
     "first": 2017,
     "laps": 51,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "hamilton",
         "second": "raikkonen",
@@ -40,6 +40,29 @@
         "fastest": "perez",
         "lap": "1:46.046"
       }
+    },
+    "stats": {
+      "wins": {
+        "perez": 2,
+        "rosberg": 1,
+        "ricciardo": 1,
+        "hamilton": 1,
+        "bottas": 1
+      },
+      "poles": {
+        "leclerc": 3,
+        "rosberg": 1,
+        "hamilton": 1,
+        "vettel": 1,
+        "bottas": 1
+      },
+      "podiums": {
+        "perez": 5,
+        "vettel": 3,
+        "bottas": 2,
+        "hamilton": 2,
+        "verstappen": 2
+      }
     }
   },
   {
@@ -54,7 +77,7 @@
     "length": 5.303,
     "first": 1953,
     "laps": 58,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "vettel",
         "second": "hamilton",
@@ -68,6 +91,29 @@
         "third": "verstappen",
         "fastest": "bottas",
         "lap": "1:25.580"
+      }
+    },
+    "stats": {
+      "wins": {
+        "schumacher": 4,
+        "button": 3,
+        "vettel": 3,
+        "coulthard": 2,
+        "raikkonen": 2
+      },
+      "poles": {
+        "hamilton": 8,
+        "hakkinen": 3,
+        "schumacher": 3,
+        "vettel": 3,
+        "villeneuve": 2
+      },
+      "podiums": {
+        "hamilton": 10,
+        "vettel": 7,
+        "raikkonen": 6,
+        "alonso": 6,
+        "schumacher": 5
       }
     }
   },
@@ -83,7 +129,7 @@
     "length": 5.412,
     "first": 2004,
     "laps": 57,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "vettel",
         "second": "bottas",
@@ -119,6 +165,29 @@
         "fastest": "leclerc",
         "lap": "1:30.558"
       }
+    },
+    "stats": {
+      "wins": {
+        "hamilton": 5,
+        "vettel": 4,
+        "alonso": 3,
+        "massa": 2,
+        "schumacher": 1
+      },
+      "poles": {
+        "vettel": 3,
+        "hamilton": 3,
+        "schumacher": 2,
+        "rosberg": 2,
+        "bottas": 2
+      },
+      "podiums": {
+        "hamilton": 11,
+        "raikkonen": 8,
+        "vettel": 5,
+        "bottas": 4,
+        "alonso": 4
+      }
     }
   },
   {
@@ -133,7 +202,7 @@
     "length": 4.655,
     "first": 1991,
     "laps": 66,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "hamilton",
         "second": "bottas",
@@ -169,6 +238,29 @@
         "fastest": "perez",
         "lap": "1:24.108"
       }
+    },
+    "stats": {
+      "wins": {
+        "schumacher": 6,
+        "hamilton": 6,
+        "hakkinen": 3,
+        "verstappen": 3,
+        "mansell": 2
+      },
+      "poles": {
+        "schumacher": 7,
+        "hamilton": 6,
+        "hakkinen": 2,
+        "raikkonen": 2,
+        "webber": 2
+      },
+      "podiums": {
+        "schumacher": 12,
+        "hamilton": 11,
+        "alonso": 7,
+        "verstappen": 7,
+        "raikkonen": 5
+      }
     }
   },
   {
@@ -183,7 +275,7 @@
     "length": 3.337,
     "first": 1950,
     "laps": 78,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "ricciardo",
         "second": "vettel",
@@ -212,6 +304,29 @@
         "fastest": "norris",
         "lap": "1:14.693"
       }
+    },
+    "stats": {
+      "wins": {
+        "senna": 6,
+        "hill": 5,
+        "schumacher": 5,
+        "prost": 4,
+        "moss": 3
+      },
+      "poles": {
+        "senna": 5,
+        "fangio": 4,
+        "clark": 4,
+        "stewart": 4,
+        "prost": 4
+      },
+      "podiums": {
+        "senna": 8,
+        "hill": 7,
+        "schumacher": 7,
+        "vettel": 7,
+        "hamilton": 7
+      }
     }
   },
   {
@@ -226,7 +341,7 @@
     "length": 4.361,
     "first": 1978,
     "laps": 70,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "vettel",
         "second": "bottas",
@@ -248,6 +363,29 @@
         "fastest": "sainz",
         "lap": "1:15.749"
       }
+    },
+    "stats": {
+      "wins": {
+        "schumacher": 7,
+        "hamilton": 7,
+        "piquet": 3,
+        "jones": 2,
+        "senna": 2
+      },
+      "poles": {
+        "schumacher": 6,
+        "hamilton": 6,
+        "vettel": 5,
+        "piquet": 3,
+        "senna": 3
+      },
+      "podiums": {
+        "schumacher": 12,
+        "hamilton": 9,
+        "vettel": 6,
+        "piquet": 5,
+        "prost": 5
+      }
     }
   },
   {
@@ -262,7 +400,7 @@
     "length": 5.891,
     "first": 1950,
     "laps": 52,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "vettel",
         "second": "hamilton",
@@ -298,6 +436,29 @@
         "fastest": "hamilton",
         "lap": "1:30.510"
       }
+    },
+    "stats": {
+      "wins": {
+        "hamilton": 8,
+        "prost": 5,
+        "clark": 3,
+        "mansell": 3,
+        "schumacher": 3
+      },
+      "poles": {
+        "hamilton": 7,
+        "clark": 3,
+        "mansell": 3,
+        "hill": 3,
+        "alonso": 3
+      },
+      "podiums": {
+        "hamilton": 13,
+        "schumacher": 7,
+        "raikkonen": 7,
+        "prost": 6,
+        "barrichello": 6
+      }
     }
   },
   {
@@ -312,7 +473,7 @@
     "length": 4.381,
     "first": 1986,
     "laps": 70,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "hamilton",
         "second": "vettel",
@@ -348,6 +509,29 @@
         "fastest": "hamilton",
         "lap": "1:21.386"
       }
+    },
+    "stats": {
+      "wins": {
+        "hamilton": 8,
+        "schumacher": 4,
+        "senna": 3,
+        "piquet": 2,
+        "hill": 2
+      },
+      "poles": {
+        "hamilton": 8,
+        "schumacher": 7,
+        "senna": 3,
+        "vettel": 3,
+        "patrese": 2
+      },
+      "podiums": {
+        "hamilton": 11,
+        "raikkonen": 9,
+        "senna": 7,
+        "schumacher": 7,
+        "vettel": 7
+      }
     }
   },
   {
@@ -362,7 +546,7 @@
     "length": 7.004,
     "first": 1950,
     "laps": 44,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "vettel",
         "second": "hamilton",
@@ -388,8 +572,8 @@
         "first": "verstappen",
         "second": "russell",
         "third": "hamilton",
-        "fastest": "None recognised",
-        "lap": ""
+        "fastest": "bottas",
+        "lap": "1:46.678"
       },
       "year2022": {
         "first": "verstappen",
@@ -397,6 +581,29 @@
         "third": "sainz",
         "fastest": "verstappen",
         "lap": "1:49.354"
+      }
+    },
+    "stats": {
+      "wins": {
+        "schumacher": 6,
+        "senna": 5,
+        "clark": 4,
+        "raikkonen": 4,
+        "hamilton": 4
+      },
+      "poles": {
+        "hamilton": 6,
+        "fangio": 4,
+        "senna": 4,
+        "hill": 3,
+        "prost": 3
+      },
+      "podiums": {
+        "hamilton": 10,
+        "schumacher": 9,
+        "prost": 7,
+        "senna": 6,
+        "vettel": 6
       }
     }
   },
@@ -412,7 +619,7 @@
     "length": 5.793,
     "first": 1950,
     "laps": 53,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "hamilton",
         "second": "raikkonen",
@@ -448,6 +655,29 @@
         "fastest": "perez",
         "lap": "1:24.030"
       }
+    },
+    "stats": {
+      "wins": {
+        "schumacher": 5,
+        "hamilton": 5,
+        "fangio": 3,
+        "moss": 3,
+        "peterson": 3
+      },
+      "poles": {
+        "hamilton": 7,
+        "fangio": 5,
+        "senna": 5,
+        "clark": 3,
+        "surtees": 3
+      },
+      "podiums": {
+        "schumacher": 8,
+        "hamilton": 8,
+        "alonso": 6,
+        "vettel": 6,
+        "fangio": 5
+      }
     }
   },
   {
@@ -462,7 +692,7 @@
     "length": 5.063,
     "first": 2008,
     "laps": 61,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "hamilton",
         "second": "verstappen",
@@ -491,6 +721,29 @@
         "fastest": "russell",
         "lap": "1:46.458"
       }
+    },
+    "stats": {
+      "wins": {
+        "vettel": 5,
+        "hamilton": 4,
+        "alonso": 2,
+        "rosberg": 1,
+        "perez": 1
+      },
+      "poles": {
+        "vettel": 4,
+        "hamilton": 4,
+        "leclerc": 2,
+        "massa": 1,
+        "alonso": 1
+      },
+      "podiums": {
+        "vettel": 8,
+        "hamilton": 6,
+        "alonso": 5,
+        "ricciardo": 4,
+        "webber": 2
+      }
     }
   },
   {
@@ -505,7 +758,7 @@
     "length": 4.603,
     "first": 2004,
     "laps": 56,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "ricciardo",
         "second": "bottas",
@@ -519,6 +772,29 @@
         "third": "vettel",
         "fastest": "gasly",
         "lap": "1:34.742"
+      }
+    },
+    "stats": {
+      "wins": {
+        "hamilton": 6,
+        "alonso": 2,
+        "rosberg": 2,
+        "barrichello": 1,
+        "schumacher": 1
+      },
+      "poles": {
+        "hamilton": 6,
+        "vettel": 4,
+        "alonso": 2,
+        "rosberg": 2,
+        "barrichello": 1
+      },
+      "podiums": {
+        "hamilton": 9,
+        "raikkonen": 6,
+        "vettel": 6,
+        "alonso": 5,
+        "rosberg": 5
       }
     }
   },
@@ -534,7 +810,7 @@
     "length": 4.309,
     "first": 1972,
     "laps": 71,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "hamilton",
         "second": "verstappen",
@@ -563,6 +839,29 @@
         "fastest": "russell",
         "lap": "1:13.785"
       }
+    },
+    "stats": {
+      "wins": {
+        "schumacher": 4,
+        "vettel": 3,
+        "hamilton": 3,
+        "fittipaldi": 2,
+        "senna": 2
+      },
+      "poles": {
+        "senna": 3,
+        "hakkinen": 3,
+        "massa": 3,
+        "barrichello": 3,
+        "hamilton": 3
+      },
+      "podiums": {
+        "schumacher": 10,
+        "alonso": 8,
+        "raikkonen": 7,
+        "hamilton": 7,
+        "massa": 5
+      }
     }
   },
   {
@@ -577,7 +876,7 @@
     "length": 5.807,
     "first": 1987,
     "laps": 53,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "hamilton",
         "second": "bottas",
@@ -599,6 +898,29 @@
         "fastest": "guanyu",
         "lap": "1:44.411"
       }
+    },
+    "stats": {
+      "wins": {
+        "schumacher": 6,
+        "vettel": 4,
+        "hamilton": 4,
+        "berger": 2,
+        "senna": 2
+      },
+      "poles": {
+        "schumacher": 8,
+        "vettel": 5,
+        "senna": 3,
+        "rosberg": 3,
+        "berger": 2
+      },
+      "podiums": {
+        "schumacher": 9,
+        "vettel": 8,
+        "hamilton": 7,
+        "hakkinen": 6,
+        "senna": 4
+      }
     }
   },
   {
@@ -613,7 +935,7 @@
     "length": 5.554,
     "first": 2009,
     "laps": 58,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "hamilton",
         "second": "vettel",
@@ -649,6 +971,29 @@
         "fastest": "norris",
         "lap": "1:28.391"
       }
+    },
+    "stats": {
+      "wins": {
+        "hamilton": 5,
+        "vettel": 3,
+        "verstappen": 3,
+        "raikkonen": 1,
+        "rosberg": 1
+      },
+      "poles": {
+        "hamilton": 5,
+        "verstappen": 3,
+        "vettel": 2,
+        "rosberg": 2,
+        "webber": 1
+      },
+      "podiums": {
+        "hamilton": 10,
+        "vettel": 7,
+        "verstappen": 5,
+        "button": 3,
+        "rosberg": 3
+      }
     }
   },
   {
@@ -663,7 +1008,7 @@
     "length": 4.304,
     "first": 1962,
     "laps": 71,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "verstappen",
         "second": "vettel",
@@ -692,6 +1037,29 @@
         "fastest": "russell",
         "lap": "1:20.153"
       }
+    },
+    "stats": {
+      "wins": {
+        "verstappen": 4,
+        "clark": 2,
+        "prost": 2,
+        "mansell": 2,
+        "hamilton": 2
+      },
+      "poles": {
+        "clark": 4,
+        "senna": 3,
+        "mansell": 2,
+        "surtees": 1,
+        "siffert": 1
+      },
+      "podiums": {
+        "hamilton": 5,
+        "brabham": 4,
+        "hulme": 4,
+        "senna": 4,
+        "mansell": 4
+      }
     }
   },
   {
@@ -706,7 +1074,7 @@
     "length": 5.842,
     "first": 1971,
     "laps": 53,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "hamilton",
         "second": "verstappen",
@@ -735,6 +1103,29 @@
         "fastest": "sainz",
         "lap": "1:35.781"
       }
+    },
+    "stats": {
+      "wins": {
+        "prost": 4,
+        "mansell": 2,
+        "hamilton": 2,
+        "verstappen": 2,
+        "stewart": 1
+      },
+      "poles": {
+        "prost": 3,
+        "stewart": 2,
+        "mansell": 2,
+        "hamilton": 2,
+        "lauda": 1
+      },
+      "podiums": {
+        "prost": 8,
+        "piquet": 4,
+        "hamilton": 4,
+        "hunt": 3,
+        "mansell": 3
+      }
     }
   },
   {
@@ -749,7 +1140,7 @@
     "length": 4.259,
     "first": 1950,
     "laps": 72,
-    "stats": {
+    "races": {
       "year2021": {
         "first": "verstappen",
         "second": "hamilton",
@@ -763,6 +1154,29 @@
         "third": "leclerc",
         "fastest": "verstappen",
         "lap": "1:13.652"
+      }
+    },
+    "stats": {
+      "wins": {
+        "clark": 4,
+        "stewart": 3,
+        "lauda": 3,
+        "ascari": 2,
+        "brabham": 2
+      },
+      "poles": {
+        "arnoux": 3,
+        "ascari": 2,
+        "hill": 2,
+        "rindt": 2,
+        "lauda": 2
+      },
+      "podiums": {
+        "clark": 6,
+        "lauda": 6,
+        "stewart": 5,
+        "brabham": 4,
+        "regazzoni": 4
       }
     }
   },
@@ -778,7 +1192,7 @@
     "length": 3.792,
     "first": 2012,
     "laps": 56,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "raikkonen",
         "second": "verstappen",
@@ -807,6 +1221,29 @@
         "fastest": "russell",
         "lap": "1:38.788"
       }
+    },
+    "stats": {
+      "wins": {
+        "hamilton": 5,
+        "verstappen": 2,
+        "vettel": 1,
+        "raikkonen": 1,
+        "bottas": 1
+      },
+      "poles": {
+        "hamilton": 3,
+        "vettel": 2,
+        "rosberg": 2,
+        "bottas": 1,
+        "verstappen": 1
+      },
+      "podiums": {
+        "hamilton": 9,
+        "vettel": 4,
+        "verstappen": 4,
+        "rosberg": 3,
+        "ricciardo": 2
+      }
     }
   },
   {
@@ -821,7 +1258,7 @@
     "length": 4.318,
     "first": 1970,
     "laps": 71,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "verstappen",
         "second": "raikkonen",
@@ -857,6 +1294,29 @@
         "fastest": "verstappen",
         "lap": "1:07.275"
       }
+    },
+    "stats": {
+      "wins": {
+        "verstappen": 4,
+        "hakkinen": 2,
+        "schumacher": 2,
+        "rosberg": 2,
+        "bottas": 2
+      },
+      "poles": {
+        "bottas": 3,
+        "hamilton": 3,
+        "verstappen": 3,
+        "hakkinen": 2,
+        "schumacher": 2
+      },
+      "podiums": {
+        "bottas": 7,
+        "verstappen": 7,
+        "hamilton": 6,
+        "coulthard": 5,
+        "barrichello": 4
+      }
     }
   },
   {
@@ -871,7 +1331,7 @@
     "length": 5.848,
     "first": 2014,
     "laps": 53,
-    "stats": {
+    "races": {
       "year2018": {
         "first": "hamilton",
         "second": "bottas",
@@ -899,6 +1359,27 @@
         "third": "sainz",
         "fastest": "norris",
         "lap": "1:37.423"
+      }
+    },
+    "stats": {
+      "wins": {
+        "hamilton": 5,
+        "bottas": 2,
+        "rosberg": 1
+      },
+      "poles": {
+        "rosberg": 2,
+        "hamilton": 2,
+        "vettel": 1,
+        "bottas": 1,
+        "leclerc": 1
+      },
+      "podiums": {
+        "hamilton": 7,
+        "bottas": 5,
+        "vettel": 3,
+        "rosberg": 2,
+        "raikkonen": 2
       }
     }
   }

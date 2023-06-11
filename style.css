@@ -32,20 +32,28 @@ header {
   padding: 10px;
   display: flex;
   z-index: 1;
-  left: 900px;
-  top: 10px;
+  left: 60.5vw;
+  top: 0px;
   justify-content: center;
   align-items: center;
 }
 
 header img {
   width: 100px;
+  margin-top: 5px;
 }
 
 header h1 {
   font-size: 44px;
   text-transform: uppercase;
   color: #3d0000;
+}
+
+#info-button {
+  cursor: pointer;
+  font-size: 35px;
+  padding-top: 6px;
+  margin-left: 60px;
 }
 
 h3 {
@@ -73,7 +81,7 @@ h3 {
   flex-direction: column;
   position: absolute;
   bottom: 20px;
-  left: 150px;
+  left: 10vw;
   float: left;
   height: 40%;
 }
@@ -105,14 +113,14 @@ h3 {
   margin-top: 60px;
 }
 
-.graph-container {
+.results-container {
   position: absolute;
   float: right;
   display: none;
   flex-direction: column;
   z-index: 1;
-  left: 850px;
-  top: 80px;
+  left: 57vw;
+  top: 11vh;
   width: 600px;
   height: 450px;
 }
@@ -123,7 +131,7 @@ h3 {
 }
 
 .podium-container h1 {
-  font-size: 44px;
+  font-size: 48px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   color: #fbbf24;
 }
@@ -135,7 +143,6 @@ h3 {
 }
 
 .fastest-lap {
-  padding-top: 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -143,7 +150,7 @@ h3 {
 
 .fastest-lap h2 {
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 900;
   color: #3d0000;
 }
@@ -175,13 +182,19 @@ h3 {
 }
 
 .selection-container {
-  display: none;
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  bottom: 80px;
-  right: 280px;
+  bottom: 25px;
+  left: 65.5vw;
+  align-items: center;
 }
 
-.selection-container label {
+.select-data {
+  display: none;
+}
+
+.select-data label {
   font-size: 16px;
   font-weight: 900;
   text-transform: uppercase;
@@ -190,7 +203,7 @@ h3 {
   padding: 5px;
 }
 
-.selection-container select {
+.select-data select {
   background-color: #950101;
   font-size: 16px;
   font-weight: 900;
@@ -199,10 +212,117 @@ h3 {
   padding: 5px;
   border: none;
   border-radius: 6px;
+  cursor: pointer;
 }
 
-.selection-container select option {
+.select-data select option {
   color: white;
   font-size: 16px;
   font-weight: 900;
+}
+
+option:hover {
+  background-color: #3d0000;
+}
+
+.select-main {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.select-main button,
+.close-modal {
+  background-color: #950101;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #3d0000 !important;
+}
+
+.graph-container {
+  position: absolute;
+  float: right;
+  display: none;
+  flex-direction: column;
+  z-index: 1;
+  left: 55vw;
+  top: 11vh;
+  width: 640px;
+  height: 450px;
+  color: #3d0000;
+  text-transform: uppercase;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal.show-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 1em;
+  border: 1px solid #ddd;
+  max-width: 800px;
+  max-height: 80vh;
+  overflow-y: auto;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.modal-content hr {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #3d0000;
+}
+
+.modal-content h1 {
+  color: #3d0000;
+}
+
+.modal-content h2 {
+  margin-top: 20px;
+  color: #3d0000;
+}
+
+.modal-content p {
+  margin-top: 10px;
+}
+
+.close {
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
